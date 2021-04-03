@@ -1,12 +1,26 @@
 html {
   box-sizing: border-box;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+img {
+  width: 100%
+}
+
 body {
   grid-template-columns: 1fr;
+}
+
+h2, h1 {
+  font-style: italic;
+  font-weight: normal;
+}
+
+dt {
+  font-style: italic;
 }
