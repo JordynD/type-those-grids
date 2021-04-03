@@ -63,6 +63,22 @@ p {
   margin: 0 0 1.5rem;
 }
 
+dl {
+  margin: 0;
+}
+
 dt {
   font-style: italic;
+}
+
+figure {
+  margin: 0;
+}
+
+figure h2 {
+  margin-bottom: 0;
+}
+
+figcaption {
+  padding: 1rem;
 }
